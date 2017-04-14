@@ -1,0 +1,29 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0041)http://cs.nju.edu.cn/rinc/student/humeng/research_introduction -->
+<HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>RINC.lab-成员-HuMeng_research_introduction</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="image/student.css">
+<META name=GENERATOR content="MSHTML 8.00.6001.19298"></HEAD>
+<BODY>
+<H2><center>手部姿势识别</center></H2>
+
+<DIV class=title1>
+<HR>
+<A id=A1 name=Resume>手部姿势识别简介：</A> </DIV><BR>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手部姿势识别是指计算机识别动作人完成的手部动作，并根据识别结果完成预先定义的功能。<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根据姿势类型分类，手部姿势识别可以分为静态手部姿势识别和动态手部姿势识别，静态姿势识别只需要识别出单帧图像即可，而动态姿势识别用来识别有时间序列的图像帧，姿势的意义在连续的动作中得以体现。<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根据识别方法分类，手部姿势识别又可以分为基于设备的手部姿势识别和基于视觉的手部姿势识别。在基于设备的手部识别中，姿势动作人需要佩戴与环境颜色差异明显的手套或携带数据线的手套，通过与环境颜色的明显差异可以定位出手部位置和手部轮廓、数据线也可以向计算机传递手部的位置和轮廓信息，这些信息组成特征向量用于完成模型的训练和识别操作。在基于视觉的手部姿势识别中，姿势动作人不用佩戴各种设备，只需使用裸手自由的完成各种预定义动作即可。计算机依照图像预处理模块完成手部的定位和特征信息提取，进而完成训练和识别操作。 </DIV>
+<DIV class=title1>
+<HR>
+<A id=Resume name=Resume>手部姿势识别流程：</A> </DIV><BR>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一般而言，基于视觉的手部姿势识别可以分为四个模块：手部跟踪和定位、手部特征提取和预处理、模型训练、姿势识别。流程如图1所示： </DIV>
+<DIV id=research_introduction><center><IMG alt=research_introduction 
+src="image/research_introduction.jpg" width=1000 height=300> </center></DIV>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其中手部跟踪和定位、手部特征提取和预处理等两步可以认为是前期预处理工作。预处理的前期阶段--手部跟踪和定位--有很多方式，如基于背景帧差的运动检测、基于色彩的皮肤检测、基于高斯混合模型的手部区域检测等，这些方式都可以在正常光照的室内外环境下有效地提取出手部区域。<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;完成手部区域检测后就可以将手部信息与其他无关的背景信息分离，进入预处理的后期阶段。将这些手部区域信息做一定的转换，例如获取其轮廓信息、手部位置信息、手部关节相对位置以及手关节联合角信息等。这些信息将联合组成特征向量用于训练和识别。在进入训练和识别前可以针对这些数据做一定的处理工作，通过降维等类似操作提取特征向量中的主要信息，取出对识别影响较小的信息，这样可以提高模型训练速度和识别率。<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提取出的手势特征向量用于将用于模型的训练和识别。模型训练过程中，特征向量用来重估模型参数，是模型能够能最好的匹配用于训练的特征向量。<BR>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在识别过程中，输入的特征向量产生的输出用来标定该手势动作被归于哪个类，继而根据被规划的类完成该类所定义的特定功能。</DIV>
+<DIV class=line>
+<HR>
+last modified: 2012-09-01 </DIV></DIV></BODY></HTML>

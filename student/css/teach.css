@@ -1,0 +1,41 @@
+﻿body 
+{
+    font-family:微软雅黑;
+}
+.all
+{
+        width:980px; 
+	margin:0 auto;
+	padding:3px 0 5px 0;
+}
+.top
+{
+    width:980px;
+    height:205px;
+}
+.topleft
+{
+    width:300px;
+    height:205px;
+    float:left;
+}
+.topright
+{
+    width:600px;
+    height:205px;
+    float:right;
+}
+.con
+{
+    width:1024px;
+    clear:both;
+}
+.toprd
+{
+    margin-left:20px;
+}
+.topru
+{
+	height:140px;
+}
+img{border:none;} 

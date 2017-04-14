@@ -1,0 +1,70 @@
+BODY {
+	BACKGROUND-IMAGE: url(image/bg.gif); BACKGROUND-REPEAT: repeat-x
+}
+#head {
+	MARGIN: 0px auto; WIDTH: 1024px; HEIGHT: 255px
+}
+#avatar {
+	WIDTH: 300px; FLOAT: left; HEIGHT: 255px
+}
+#message {
+	WIDTH: 700px; FLOAT: right; HEIGHT: 255px
+}
+#sname {
+	HEIGHT: 120px
+}
+#sinfo {
+	PADDING-BOTTOM: 10px; HEIGHT: 100px
+}
+UNKNOWN {
+	MARGIN: 0px auto; WIDTH: 100%; TEXT-DECORATION: none
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #112C9A;
+	text-decoration: none;
+}
+a:hover {
+	color: #D9271E;
+	text-decoration: underline;
+}
+a:active {
+	color: #112C9A;
+	text-decoration: none;
+}
+a.externallink
+{
+	background-image: url(ExternalLink.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 14px;
+}
+.member_li1 {
+	FONT-FAMILY: "Ó×Ô²"; COLOR: #0000cc; FONT-SIZE: 18px; TEXT-DECORATION: none
+}
+.member_li1:hover {
+	TEXT-ALIGN: center; FONT-FAMILY: "Ó×Ô²"; COLOR: #ee7e1f; FONT-SIZE: 18px; TEXT-DECORATION: underline
+}
+.member_li22 {
+	BORDER-BOTTOM-STYLE: none; LIST-STYLE-TYPE: disc; FONT-FAMILY: "Ó×Ô²"; COLOR: #333333; FONT-SIZE: 18px
+}
+.sp {
+	FONT-FAMILY: "»ªÎÄÐÂÎº"; FONT-SIZE: 18px
+}
+.title {
+	MARGIN: 0px auto; WIDTH: 1024px; FONT-FAMILY: "Ó×Ô²"; COLOR: #0000ff; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+.title1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FONT-FAMILY: "Ó×Ô²"; COLOR: #000000; FONT-SIZE: 20px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.line {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; COLOR: #000000; PADDING-TOP: 0px
+}
+.midtxt {
+	MARGIN: 0px auto; PADDING-LEFT: 80px; WIDTH: 90%; FONT-FAMILY: "Times New Roman", Times, serif; COLOR: #000; FONT-SIZE: 18px
+}
+.hr {
+	size: auto; align: "center"
+}

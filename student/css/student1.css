@@ -1,0 +1,109 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body
+	{
+                background-image: url(image/bg.gif);
+	            background-repeat: repeat-x;
+	}
+#head{
+width:1048px;
+height:255px;
+}
+#avatar
+{
+	width:30%;
+	height:255px;
+	float:left;
+	
+}
+#message
+{   width:68%;
+	height:255px;
+	float:right;
+}
+#sname
+{
+	height:120px;
+}
+#sinfo
+{
+	height:100px;
+	padding-bottom:10px;
+}
+--------------------------------------------------------------------------------HEADERPART--------------------------------------------------END--------------------------------------*/		
+/*-------------------------------------------------------------------------------------LEFTRPART----------------------------------------------------------------END--*/	
+
+#content
+	{   
+		width:100%;
+		float:left;
+		margin:0px;
+		text-decoration:none;
+		padding:10px 10px 10px 10px;
+	}
+
+.member_li1 
+	{
+	font-family:"幼圆";
+	font-size:18px;
+	color:#0000CC;
+	text-decoration:none;
+	}
+.member_li1:hover
+	{
+	font-family:"幼圆";
+	font-size:18px;
+	color:#ee7e1f;
+	text-align:center;
+	text-decoration: underline;	
+	}
+.member_li22{
+	border-bottom-style: none;
+	color: #000;
+	list-style-type: disc;
+	font-family:"幼圆";
+	font-size:18px;
+	color:#333333;
+}
+
+.hr
+{
+  size:auto;
+  align:"center";
+  color:"#CCCCCC";
+}
+.sp {
+	font-size: 18px;
+	font-family: "华文新魏";
+}
+.title
+	{
+		width:1048px;
+		float: left;
+		margin:0px;
+		font-family:"幼圆";
+		font-size:20px;
+		font-weight:bold;
+		color:#0000FF;
+	}
+.title1
+	{
+		width:100%;
+		float: left;
+		margin:0px;
+		padding:0px;
+		font-family:"幼圆";
+		font-size:20px;
+		font-weight:bold;
+		color:#000000;
+	}
+.midtxt
+	{
+		width:100%;
+		float: left;
+		margin:5px 0 0 0;
+		padding:0px;
+		font-family:"幼圆";
+		font-size:18px;
+		color:#333333;
+	}

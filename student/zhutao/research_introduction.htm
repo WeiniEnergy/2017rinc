@@ -1,0 +1,33 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0041)http://cs.nju.edu.cn/rinc/student/humeng/research_introduction -->
+<HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>RINC.lab-成员-Zhutao_research_introduction</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="image/student.css">
+<META name=GENERATOR content="MSHTML 8.00.6001.19298"></HEAD>
+<BODY>
+<H2><center>人脸识别</center></H2>
+
+<DIV class=title1>
+<HR>
+<A id=A1 name=Resume>人脸识别简介：</A> </DIV><BR>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人脸识别系统输入一般是一张或者一系列含有未确定身份的人脸图像。随后，系统根据人脸数据库中的若干已知身份的人脸图象或者相应的编码，输出一组相似度得分，表明待识别的人脸的身份。<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为一种高效的生物识别技术，人脸识别技术在诸如身份识别、图片检索、人机交互、犯罪调查、摄像监视、多媒体等各个领域有着广泛的应用前景。而与其他一些生物识别技术（如指纹识别、视网膜识别、静脉识别）相比，人脸识别技术具有自然性和非接触性两个极为显著的优点。<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于其巨大的应用价值，人脸识别技术无论在学术界，还是在工业界，都引起了研究者们的广泛兴趣。特别是自上世纪90年代以来，人脸识别技术更是获得了极大的发展，各种新方法不断地被提出。尽管如此，由于人脸图片固有的多样性和样本图片收集的困难性等问题，人脸识别系统在走向大规模实用化的进程中，依旧面临着巨大的挑战。<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+<DIV class=title1>
+
+<DIV class=title1>
+<HR>
+<A id=Resume name=Resume>当前研究：</A> </DIV><BR>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 目前主要研究课题是单样本条件下的基于子空间方法的在线增量人脸识别系统。 </DIV>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小样本问题，即SSS问题（Small Sample Size Problem）一直是人脸识别领域中最具挑战性的问题之一。小样本问题是指由于训练样本的数目远小于样本图片的维数而引起的问题。小样本问题最极端的情况就是对于每个个体，仅有一张训练样本图片，这就是单样本问题。<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了解决小样本（特别是单样本）问题，我们通过样本扩充技术，将每张图片表示为一组子空间的集合。每个子空间由一组维数固定的正交基底所表示。于是，此时人脸的识别问题可以转换成未标识子空间组与训练样本子空间组之间相似度的衡量问题。<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;受到增量学习和半监督学习理论的启发，我们尝试在人脸识别的进行过程中，利用不断输入的数据进行学习，进而改进系统的识别表现。因此，我们提出了一个新颖的子空间更新方法：通过对输入数据的学习，训练样本子空间可以在花费少量计算代价的条件下实现对自身的调整和更新。<BR>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了实现鲁棒的人脸识别，我们提出了一个在增量学习环境的子空间相似度计算方法。另外，我们还提出了一个具有自动判别能力的阈值系统，该系统可以防止增量学习行为对样本子空间原有结构可能造成的破坏。<BR>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系统工作流程如下图所示。</DIV>
+<DIV id=research_introduction><center><IMG alt=research_introduction 
+src="image/research_introduction.jpg" width=350 height=550> </center></DIV>
+<DIV class=line>
+<HR>
+last modified: 2012-09-01 </DIV></DIV></BODY></HTML>

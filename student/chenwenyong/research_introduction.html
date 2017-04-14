@@ -1,0 +1,34 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0041)http://cs.nju.edu.cn/rinc/student/chenwenyong/research_introduction -->
+<HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>RINC.lab|成员|陈文雍|注意模型</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="image/student.css">
+<META name=GENERATOR content="MSHTML 8.00.6001.19298"></HEAD>
+<BODY>
+<H2><center>注意模型简介</center></H2>
+
+<DIV class=title1>
+<H3><A id=A1 name=Resume>注意的“前生今世”:</A> </DIV></H3>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“注意（attention）”的概念最初源于认知心理学，它指的是心理活动对一定对象的指向和集中，通常是指选择性注意，即人脑有选择的加工某些外界刺激而忽视其他刺激。随着注意在心理学领域卓有成效的发展，其他领域（如神经科学、计算机科学等）的专家学者也将目光投入到其中来，探索将注意这个理念引入到各自的研究领域。<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本课题的研究目的即根据注意已有的理论知识设计一个计算模型，通过该模型来模拟注意的选择、转移机制；其次，将利用具体的图像来验证此模型，并给出其评价标准。<BR><BR>
+</DIV>
+<DIV class=title1>
+<HR>
+<H3><A id=A4 name=Resume>注意研究的意义:</A> </DIV></H3>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;针对计算机领域，研究目前主要集中在计算机视觉和人工智能方面。在视觉方面，为一些图像处理提供了新的思想和方法，如图像的分割技术；其次，应用在视觉搜索领域，如侦查可疑目标，排除安全隐患问题。在人工智能和机器人方面，利用注意的一些心理学理论可以使机器的设计更符合人的思维机制，而且在机器人智能跟踪和目标捕获也有很大的应用前景。<BR><BR></DIV>
+<HR><H3><A id=A2 name=Resume>CS领域的“主旋律”:</A> </DIV></H3>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前在计算机领域，关于注意的研究最广为人知的就是Laurent Itti教授提出的显著度图模型，有时也常被称为ITTI模型。该模型借鉴了心理学领域的Guided-Search模型，其基本思想是：通过提取颜色、亮度、方向这三个影响人视觉注意的特征，运用显著度图的理念获取图像中的显著点，即焦点，以焦点为中心的区域作为注意获取的区域；进而运用抑制返回机制来控制焦点的转移，即按显著度的高低排序的顺序转移。而此处的显著度图是用来衡量图像中某点引人注意的强烈程度，由模型构建时定义的三个特征合成。<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该模型的主要贡献就是将注意实现可计算化，并可以通过对图像的处理很直观地展现出来，
+而且效果也比较令人满意。下图用黄线勾画的是每次注意选择的区域，红线代表选择转移的轨迹。<BR>
+
+
+<DIV class=title1><DIV id=attention><center><IMG alt=attention 
+src="image/attention.jpg" width=576 height=337> </center></DIV> <BR>
+<HR><H3><A id=A3 name=Resume>问题及不足:</A> </DIV></H3>
+<DIV class=midtxt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Itti模型当然也存在着不足的地方，比如，注意单元是以焦点为中心的固定大小区域，而非以物体为注意单元；模型评价的标准很主观，缺少客观的评价体系；还有注意的转移机制过于简单，有待于改进，这些都可以作为今后研究的方向。<BR><BR>
+</DIV>
+<DIV class=title1>
+<HR>
+last modified: 2012-09-05 </DIV></DIV></BODY></HTML>
