@@ -11,7 +11,6 @@
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet"> 
 <link href="css/flexslider.css" rel="stylesheet" /> 
 <link href="css/style.css" rel="stylesheet" />
- <link rel="stylesheet" href="http://at.alicdn.com/t/font_1462780150_442243.css"> 
 <link rel='icon' href='img/favicon.ico' type=‘image/x-ico’ /> 
  
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -35,13 +34,16 @@
 	<header>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
-                <div class="navbar-header">
+                <div class="navbar-header ">
+				
+				<a class="navbar-brand " href="index.html"><img src="img/logo5.jpg" alt="logo" class="img-responsive"  /></a>
+				
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-					<a class="navbar-brand" href="index.html"><img src="img/logo5.jpg" alt="logo"/></a>
+
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
@@ -72,7 +74,7 @@
 	
 <section >
 	<div  style="background-color:#DEDEDE">
-	<div class="row" style="background-color:#2E8EDA" >
+	<div class="row" style="background-color:#424242" >
 	
 	<div class="col-lg-12 col-md-12 col-sm-12 " align="center" style="padding-top:35px" >	
 				<h2 class="pageTitle " style="font-size:45px;text-align:center;">机器人智能与神经计算研究组</h2>
@@ -140,7 +142,7 @@
 				<div class="col-md-10 col-sm-9">
 					<h3>RINC研究组简介：</h3>
 					
-					<p> 机器人智能与神经计算研究组 (Robotic Intelligence & Neural Computing Group,RINC [rɪŋk])隶属于南京大学计算机科学与技术系，现位于南京大学仙林校区计算机科学技术楼。机器人智能与神经计算研究组成立于2006年10月，从事神经计算领域中多个课题的研究和系统开发。研究课题的设立基于研究组研究总方向的需要和每个成员的研究兴趣，研究的具体实施通过每周一次的讨论班以及平时和老师的个别讨论而展开。 </p>
+					<p style="text-align:justify;"> 机器人智能与神经计算研究组 (Robotic Intelligence & Neural Computing Group,RINC [rɪŋk])隶属于南京大学计算机科学与技术系，现位于南京大学仙林校区计算机科学技术楼。机器人智能与神经计算研究组成立于2006年10月，从事神经计算领域中多个课题的研究和系统开发。研究课题的设立基于研究组研究总方向的需要和每个成员的研究兴趣，研究的具体实施通过每周一次的讨论班以及平时和老师的个别讨论而展开。 </p>
 					<br />
 					<br />
 				</div>
@@ -159,24 +161,27 @@
 
 	 <div class="row">
             <div class="col-sm-4 info-blocks">
-                <i class="icon-info-blocks fa fa-bar-chart-o"></i>
+                <!--<i class="icon-info-blocks fa fa-bar-chart-o"></i>-->
+				<img src="img/icon/DM.png"  align="left"/>
                 <div class="info-blocks-in">
                     <a href="DataMining.html"><h3>数据分析</h3></a> 
-                    <p>我们的数据分析主要利用统计和人工智能技术相结合的方法。通过统计，在线分析处理、情报检索、机器学习、专家系统（依靠过去的经验法则）和模式识别等诸多方法来从大量的数据中挖掘与分析出最有用的信息。</p>
+                    <p style="text-align:justify;">我们的数据分析主要利用统计和人工智能技术相结合的方法。通过统计，在线分析处理、情报检索、机器学习、专家系统（依靠过去的经验法则）和模式识别等诸多方法来从大量的数据中挖掘与分析出最有用的信息。</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
-                <i class="icon-info-blocks fa fa-sitemap"></i>
-                <div class="info-blocks-in">
+                <!--<i class="icon-info-blocks fa fa-sitemap"></i>-->
+				<img src="img/icon/NW.png"  align="left"/>
+                <div class="info-blocks-in">	
                     <a href="NeuralNetwork.html"><h3>神经网络</h3></a><a href="Soinn.html"><h4>(Soinn自组织增量学习神经网络)</h4></a> 
-                    <p>人工神经网络是一种模仿动物神经网络行为特征，进行分布式并行信息处理的算法数学模型。这种网络依靠系统的复杂程度，通过调整内部大量节点之间相互连接的关系，从而达到处理信息的目的。</p>
+                    <p style="text-align:justify;">人工神经网络是一种模仿动物神经网络行为特征，进行分布式并行信息处理的算法数学模型。这种网络依靠系统的复杂程度，通过调整内部大量节点之间相互连接的关系，从而达到处理信息的目的。</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
-                <i class="icon-info-blocks fa fa-cogs"></i>
+                <!--<i class="icon-info-blocks fa fa-cogs"></i>-->
+				<img src="img/icon/RI.png"  align="left"/>	
                 <div class="info-blocks-in">
                     <a href="Robot.html"><h3>机器人智能</h3></a>
-                    <p>在RINC研究组中，机器人智能方面我们主要围绕"智能"、突出"学习"并结合神经网络展开研究，我们的具体研究主要包括：智能家居服务机器人、人机交互控制、机器人学习算法、轮型机器人的设计和制造、导航与定位、路径规划、机器人视觉等。</p>
+                    <p style="text-align:justify;">在RINC研究组中，机器人智能方面我们主要围绕"智能"、突出"学习"并结合神经网络展开研究，我们的具体研究主要包括：智能家居服务机器人、人机交互控制、机器人学习算法、轮型机器人的设计和制造、导航与定位、路径规划、机器人视觉等。</p>
                 </div>
             </div>
         </div>
@@ -199,25 +204,25 @@
 						<ul class="withArrow">
 						
 							<!--最新动态更新3地方，1.主页上边6条为佳，2.完全的在新闻动态更新 也要更新新闻中心,3.论文栏目里的论文，或获奖-->
-							<li><span class="fa fa-angle-right"></span>2016-12-24 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/>2016-12-24 &#160; 
             <a href="student/yangyi/index.html" style="color:rgb(147, 137, 83);">杨毅</a>，<a href="student/dengqilin/index.html" style="color:rgb(147, 137, 83);">邓齐林</a>，2016年CCF大数据于计算智能大赛-大数据精准营销中搜狗用户画像挖掘，二等奖.</li>
-							<li><span class="fa fa-angle-right"></span>2016-10-09 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/>2016-10-09 &#160; 
             <a href="student/zhutao/index.html" style="color:rgb(147, 137, 83);">竺涛</a> 同学的论文“An Online Incremental Orthogonal
             Component Analysis Method for Dimensionality Reduction”已被Neural Networks正式接收</li>
 			
-							<li><span class="fa fa-angle-right"></span>  2016-09-14 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/> 2016-09-14 &#160; 
             <a href="student/humeng/index.html" style="color:rgb(147, 137, 83);">胡孟</a> 同学的专利“一种基于隐马尔科夫模型自增量学习的动态手势识别方法”已被授权</li>
-							<li><span class="fa fa-angle-right"></span> 2016-08-26 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/>2016-08-26 &#160; 
             <a href="student/xingyoulu/index.html" style="color:rgb(147, 137, 83);">邢佑路</a> 、 
             <a href="student/shixiaofeng/index.html" style="color:rgb(147, 137, 83);">时晓峰</a> 等人的论文“A Self-Organizing Incremental
             Neural Network Based on Local Distribution Learning ” 已被Neural Networks正式接</li>
-							<li><span class="fa fa-angle-right"></span> 2016-08-26 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/>2016-08-26 &#160; 
             <a href="student/liangyu/index.html" style="color:rgb(147, 137, 83);;">梁雨</a> 同学的论文“A Fast Manifold Learning Algorithm
             for Dimensionality Reduction”已ICONIP2016正式接受。</li>
-							<li><span class="fa fa-angle-right"></span> 2016-08-26 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/>2016-08-26 &#160; 
             <a href="student/yangyi/index.html" style="color:rgb(147, 137, 83);;">杨毅</a> 同学的论文“A Shapelet Learning Method for Time
             Series Classification” 已被ICONIP2016正式接受。</li>
-							<li><span class="fa fa-angle-right"></span> 2016-08-26 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/>2016-08-26 &#160; 
             <a href="student/dengqilin/index.html" style="color:rgb(147, 137, 83);;">邓齐林</a> 同学的论文“An incremental one class
             learning algorithm for large scale data”已被ICONIP2016正式接受。</li>
 							<!--最新动态主页上边6条为佳，完全的在新闻动态更新 也要更新新闻中心-->
@@ -242,19 +247,19 @@
 						
 						
 							<!--最新动态主页下边5条为佳，完全的在新闻动态更新 也要更新新闻中心-->
-							<li><span class="fa fa-angle-right"></span> 2016-08-26 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/>2016-08-26 &#160; 
             <a href="student/lvzhihui/index.html" style="color:rgb(147, 137, 83);;">吕智慧</a> 同学的论文“A Swarm Intelligence Algorithm
             Inspired By Twitter”已被ICONIP2016正式接受。</li>
-							<li><span class="fa fa-angle-right"></span>2016-08-26 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/>2016-08-26 &#160; 
             <a href="student/shixiaofeng/index.html" style="color:rgb(147, 137, 83);;">时晓峰</a> 同学的论文“Image Segmentation Based on
             Prototypes Extraction and Merging of Clusters in Multiple Spaces”已被ICONIP2016正式接受。</li>
-							<li><span class="fa fa-angle-right"></span> 2016-08-26 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/>2016-08-26 &#160; 
             <a href="student/xubaile/index.html" style="color:rgb(147, 137, 83);;">徐百乐</a> 同学的论文“Density Based Self Organizing
             Incremental Neural Network For Data Stream Clustering”已被ICONIP2016正式接受。</li>
-							<li><span class="fa fa-angle-right"></span> 2016-04-01 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/> 2016-04-01 &#160; 
             <a href="student/qty/index.html" style="color:rgb(147, 137, 83);;">邱天宇</a>
             同学的论文“自组织增量学习神经网络(SOINN)综述”已被软件学报正式接收。</li>
-							<li><span class="fa fa-angle-right"></span> 2016-03-08 &#160; 
+							<li><img src="img/icon/right.png"  align="left"/> 2016-03-08 &#160; 
             <a href="student/qty/index.html" style="color:rgb(147, 137, 83);;">干强</a> 同学的专利“一种基于包容式层次结构的通用机器人多场景控制方法”已获授权。</li>
 							<!--最新动态主页下边5条为佳，完全的在新闻动态更新 也要更新新闻中心-->
 						</ul>
